@@ -864,10 +864,10 @@ impl VarSyntaxShapeDeductor {
                                     ),
                                 )?;
                             }
-                            s => unreachable!(format!(
+                            s => unreachable!(
                                 "Shape of {:?} should have failed at parsing stage",
                                 s
-                            )),
+                            ),
                         }
                     }
                 }
